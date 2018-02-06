@@ -6,10 +6,27 @@ aside * {
   color: white;
 }
 
+aside h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+aside section h2:first-child{
+  border-bottom: 2px solid white;
+}
+
 #profile-pic img{
   border-radius: 50%;
 }
 
+.hero{
+  background-color: #F7DDC3;
+}
+
+.hero h2{
+  color: white;
+  border-top: 2px solid white;
+}
 
 /***{
   color:green;
