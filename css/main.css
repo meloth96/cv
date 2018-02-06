@@ -19,6 +19,11 @@ aside section h2:first-child{
   border-radius: 50%;
 }
 
+main section > h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 .hero{
   background-color: #F7DDC3;
 }
@@ -26,6 +31,32 @@ aside section h2:first-child{
 .hero h2{
   color: white;
   border-top: 2px solid white;
+  text-transform: none;
+  letter-spacing: none;
+}
+
+.hero {
+  box-shadow: 3px 3px 30px 5px #647087 inset;
+}
+
+.about-me{
+  background: #EDC0AF;
+}
+
+.about-me h2{
+  background-color: white;
+}
+
+article h3{
+  font-weight: bold;
+}
+
+article h4{
+  font-weight: bold;
+}
+
+article ul{
+  list-style-type: square;
 }
 
 /***{
