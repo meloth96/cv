@@ -1,3 +1,7 @@
+ul{
+  list-style-type: none;
+}
+
 aside {
   background-color: #647087;
 }
@@ -35,7 +39,6 @@ main section > h2{
   text-transform: none;
   letter-spacing: none;
 }
-
 
 .about-me{
   background: #EDC0AF;
