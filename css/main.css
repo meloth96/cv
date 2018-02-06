@@ -5,3 +5,15 @@ color:green;
 p {
   color: blue;
 }
+
+.bonito{
+  background-color:  lightblue;
+}
+
+ul{
+  list-style-type: none;
+}
+
+article ul{
+  list-style-type: square;
+}
