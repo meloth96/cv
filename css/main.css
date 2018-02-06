@@ -1,5 +1,18 @@
-*{
-color:green;
+aside {
+  background-color: #647087;
+}
+
+aside * {
+  color: white;
+}
+
+#profile-pic img{
+  border-radius: 50%;
+}
+
+
+/***{
+  color:green;
 }
 
 p {
@@ -17,3 +30,7 @@ ul{
 article ul{
   list-style-type: square;
 }
+
+#profile-pic img{
+  border-radius: 50%;
+}**/
