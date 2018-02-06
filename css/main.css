@@ -2,20 +2,28 @@ ul{
   list-style-type: none;
 }
 
-aside {
+.contenedor-principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
   background-color: #647087;
 }
 
-aside * {
+.aside * {
   color: white;
 }
 
-aside h2{
+.aside h2{
   text-transform: uppercase;
   letter-spacing: 5px;
 }
 
-aside section h2:first-child{
+.aside section h2:first-child{
   border-bottom: 2px solid white;
 }
 
@@ -23,7 +31,7 @@ aside section h2:first-child{
   border-radius: 50%;
 }
 
-main section > h2{
+.main section > h2{
   text-transform: uppercase;
   letter-spacing: 5px;
 }
