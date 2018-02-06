@@ -26,6 +26,7 @@ main section > h2{
 
 .hero{
   background-color: #F7DDC3;
+  box-shadow: 3px 3px 30px 5px #647087 inset;
 }
 
 .hero h2{
@@ -35,9 +36,6 @@ main section > h2{
   letter-spacing: none;
 }
 
-.hero {
-  box-shadow: 3px 3px 30px 5px #647087 inset;
-}
 
 .about-me{
   background: #EDC0AF;
@@ -47,10 +45,7 @@ main section > h2{
   background-color: white;
 }
 
-article h3{
-  font-weight: bold;
-}
-
+article h3,
 article h4{
   font-weight: bold;
 }
