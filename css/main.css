@@ -1,35 +1,36 @@
+/*Vendor para css externos*/
 ul{
   list-style-type: none;
 }
-
+h1, h2{
+  text-transform: uppercase;
+}
+.contenedor-aside{
+  display: flex;
+  width: 30%;
+}
+.contenedor-main{
+  display: flex;
+  margin-right: 2em;
+  margin-left: 2em;
+}
 .contenedor-principal{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
 }
-
-.aside {
-  display: flex;
-  flex-direction: column;
+aside {
+  width: 1200px;
   background-color: #647087;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-}
-
-.aside * {
+aside * {
   color: white;
 }
 
-.aside h2{
-  text-transform: uppercase;
+aside h2{
   letter-spacing: 5px;
 }
 
-.aside section h2:first-child{
+aside section h2:first-child{
   border-bottom: 2px solid white;
 }
 
@@ -37,7 +38,7 @@ ul{
   border-radius: 50%;
 }
 
-.main section > h2{
+main section > h2{
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -45,19 +46,27 @@ ul{
 .hero{
   background-color: #F7DDC3;
   box-shadow: 3px 3px 30px 5px #647087 inset;
+  padding: 15% 0;
+  text-align: center;
 }
 
 .hero h2{
   color: white;
   border-top: 2px solid white;
-  text-transform: none;
-  letter-spacing: none;
+  letter-spacing: 15px;
 }
+.hero h1{
+  letter-spacing: 10px;
+}
+
 
 .about-me {
   background: #EDC0AF;
 }
-
+.about-me p{
+  line-height:  1.5em;
+  padding: 5px;
+}
 .about-me h2{
   background-color: white;
 }
@@ -69,6 +78,24 @@ article h4{
 
 article ul{
   list-style-type: square;
+}
+.references{
+  display: flex;
+  flex-wrap: wrap;
+  background: #EDC0AF;
+  text-align: center;
+}
+.references article{
+  width: 50%;
+}
+dt{
+  float: left;
+  width: 30%;
+  border-top: 1px solid white;
+}
+dd{
+  float: left;
+  width: 60%;
 }
 
 /***{
