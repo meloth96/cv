@@ -15,6 +15,11 @@ ul{
   background-color: #647087;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .aside * {
   color: white;
 }
@@ -49,7 +54,7 @@ ul{
   letter-spacing: none;
 }
 
-.about-me{
+.about-me {
   background: #EDC0AF;
 }
 
