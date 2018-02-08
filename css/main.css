@@ -100,7 +100,11 @@ dd{
 
 .fb::before{
   font-family: "Font Awesome 5 free";
-  
+
+}
+meter{
+  display: block;
+  width: 80%;
 }
 
 /***{
