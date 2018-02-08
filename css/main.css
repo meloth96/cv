@@ -98,6 +98,11 @@ dd{
   width: 60%;
 }
 
+.fb::before{
+  font-family: "Font Awesome 5 free";
+  
+}
+
 /***{
   color:green;
 }
