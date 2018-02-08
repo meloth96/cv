@@ -7,21 +7,22 @@ h1, h2{
 }
 .contenedor-aside{
   display: flex;
-  width: 30%;
 }
 .contenedor-main{
   display: flex;
-  margin-right: 2em;
-  margin-left: 2em;
 }
 .contenedor-principal{
   display: flex;
+  width: 1200px;
+  justify-content: space-between;
 }
 aside {
-  width: 1200px;
   background-color: #647087;
+  flex-basis: 25%;
 }
+main{
 
+}
 aside * {
   color: white;
 }
@@ -36,6 +37,8 @@ aside section h2:first-child{
 
 #profile-pic img{
   border-radius: 50%;
+  width: 100px;
+  height: auto;
 }
 
 main section > h2{
@@ -105,6 +108,10 @@ dd{
 meter{
   display: block;
   width: 80%;
+}
+meter::-webkit-meter-optimum-value{
+  background: none;
+  background-color: red;
 }
 
 /***{
