@@ -5,23 +5,14 @@ ul{
 h1, h2{
   text-transform: uppercase;
 }
-.contenedor-aside{
-  display: flex;
-}
-.contenedor-main{
-  display: flex;
-}
 .contenedor-principal{
   display: flex;
   width: 1200px;
-  justify-content: space-between;
 }
 aside {
   background-color: #647087;
-  flex-basis: 25%;
-}
-main{
-
+  width: 30%;
+  margin-right: 3%;
 }
 aside * {
   color: white;
@@ -47,7 +38,7 @@ main section > h2{
 }
 
 .hero{
-  background-color: #F7DDC3;
+  background-color: #b7babc;
   box-shadow: 3px 3px 30px 5px #647087 inset;
   padding: 15% 0;
   text-align: center;
@@ -64,7 +55,7 @@ main section > h2{
 
 
 .about-me {
-  background: #EDC0AF;
+  background: #b7babc;
 }
 .about-me p{
   line-height:  1.5em;
@@ -85,20 +76,39 @@ article ul{
 .references{
   display: flex;
   flex-wrap: wrap;
-  background: #EDC0AF;
+  background: #647087;
   text-align: center;
 }
 .references article{
   width: 50%;
 }
-dt{
-  float: left;
-  width: 30%;
+dt,
+dd{
+  line-height: 1.5em;
   border-top: 1px solid white;
 }
-dd{
+/*dt{
+  font-weight: bolder;
+  clear: left;
+  width: 30%;
   float: left;
-  width: 60%;
+}
+dd{
+  clear: right;
+  width: 50%;
+  float: left;
+  margin: 0;
+}*/
+dl{
+  display: flex;
+}
+dt, dd{
+  width: 40%
+  margin: 0;
+}
+dt:last-of-type,
+dd:last-of-type{
+  border-bottom: 1px solid white;
 }
 
 .fb::before{
@@ -113,27 +123,3 @@ meter::-webkit-meter-optimum-value{
   background: none;
   background-color: red;
 }
-
-/***{
-  color:green;
-}
-
-p {
-  color: blue;
-}
-
-.bonito{
-  background-color:  lightblue;
-}
-
-ul{
-  list-style-type: none;
-}
-
-article ul{
-  list-style-type: square;
-}
-
-#profile-pic img{
-  border-radius: 50%;
-}**/
