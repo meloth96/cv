@@ -47,18 +47,15 @@ main section > h2{
 .hero h2{
   color: white;
   border-top: 2px solid white;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 }
 .hero h1{
   letter-spacing: 10px;
 }
 
-
-.about-me {
-  background: #b7babc;
-}
 .about-me p{
-  line-height:  1.5em;
+  line-height:  2em;
+  background: #b7babc;
   padding: 5px;
 }
 .about-me h2{
@@ -77,43 +74,28 @@ article ul{
   display: flex;
   flex-wrap: wrap;
   background: #647087;
-  text-align: center;
 }
 .references article{
   width: 50%;
+  text-align: center;
+}
+dl{
+  display: flex;
+  flex-wrap: wrap;
 }
 dt,
 dd{
+  flex-basis: 40%
+  margin: 0;
   line-height: 1.5em;
   border-top: 1px solid white;
-}
-/*dt{
-  font-weight: bolder;
-  clear: left;
-  width: 30%;
-  float: left;
-}
-dd{
-  clear: right;
-  width: 50%;
-  float: left;
-  margin: 0;
-}*/
-dl{
-  display: flex;
-}
-dt, dd{
-  width: 40%
-  margin: 0;
 }
 dt:last-of-type,
 dd:last-of-type{
   border-bottom: 1px solid white;
 }
-
-.fb::before{
-  font-family: "Font Awesome 5 free";
-
+dt{
+  font-weight: bolder;
 }
 meter{
   display: block;
@@ -122,4 +104,8 @@ meter{
 meter::-webkit-meter-optimum-value{
   background: none;
   background-color: red;
+}
+.fb::before{
+  content: "\f082";
+  font-family: "Font Awesome 5 free";
 }
