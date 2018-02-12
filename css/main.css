@@ -91,6 +91,11 @@ article h4{
   text-align: center;
 }
 
+.references img{
+  width: 100px;
+  height: 80px;
+}
+
 dl{
   display: flex;
   flex-wrap: wrap;
