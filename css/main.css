@@ -1,6 +1,12 @@
 /*Vendor para css externos*/
+body{
+  font-family: 'Lato';
+}
 ul{
-  list-style-type: none;
+  list-style-type: disc;
+}
+ul li{
+  padding-bottom: 15px;
 }
 h1, h2{
   text-transform: uppercase;
@@ -8,11 +14,18 @@ h1, h2{
 .contenedor-principal{
   display: flex;
   width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
 }
 aside {
   background-color: #647087;
-  width: 30%;
+  /*width: 30%;*/
+  flex-basis:25%;
+  /*width: 400px;*/
   margin-right: 3%;
+}
+main{
+  flex-basis: 60%;
 }
 aside * {
   color: white;
@@ -20,6 +33,7 @@ aside * {
 
 aside h2{
   letter-spacing: 5px;
+  padding-left: 8px;
 }
 
 aside section h2:first-child{
@@ -56,7 +70,7 @@ main section > h2{
 .about-me p{
   line-height:  2em;
   background: #b7babc;
-  padding: 5px;
+  padding: 10px;
 }
 .about-me h2{
   background-color: white;
@@ -66,19 +80,17 @@ article h3,
 article h4{
   font-weight: bold;
 }
-
-article ul{
-  list-style-type: square;
-}
 .references{
   display: flex;
   flex-wrap: wrap;
   background: #647087;
+  padding-bottom: 15px;
 }
 .references article{
   width: 50%;
   text-align: center;
 }
+
 dl{
   display: flex;
   flex-wrap: wrap;
@@ -101,11 +113,29 @@ meter{
   display: block;
   width: 80%;
 }
+table .fab{
+  padding-left: 50px;
+  padding-right: 45px;
+}
+table tr{
+  height: 65px;
+}
 meter::-webkit-meter-optimum-value{
   background: none;
-  background-color: red;
+  background-color: #1f8ae3;
 }
-.fb::before{
-  content: "\f082";
+/*.fb::before{
   font-family: "Font Awesome 5 free";
+  font-weight: 900;
+  content: "\f082";
+}*/
+.social-item::before{
+  padding-right: 15px;
+}
+.personal-skills li{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fab{
+  font-size: 40px;
 }
