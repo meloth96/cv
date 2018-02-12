@@ -41,8 +41,8 @@ aside section h2:first-child{
 }
 
 #profile-pic img{
-  border-radius: 50%;
-  width: 100px;
+  border-radius: 5%;
+  width: 200px;
   height: auto;
 }
 
