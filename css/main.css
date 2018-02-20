@@ -137,3 +137,15 @@ main section > h2{
 .fab{
   font-size: 40px;
 }
+
+@media (max-width: 400px) {
+  .contenedor-principal{
+    width: 400px;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+  }
+  aside,
+  main{
+    flex: 100%
+  }
+}
