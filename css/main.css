@@ -60,6 +60,10 @@ aside {
   /*width: 400px;*/
   margin-right: 3%;
 }
+aside, main{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 main{
   flex-basis: 60%;
 }
