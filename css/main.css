@@ -60,6 +60,7 @@ aside {
   /*width: 400px;*/
   margin-right: 3%;
 }
+
 aside, main{
     margin-bottom: 10px;
     margin-top: 10px;
@@ -142,14 +143,72 @@ main section > h2{
   font-size: 40px;
 }
 
-@media (max-width: 400px) {
+/* Para algunas tablets */
+@media (min-width: 410px) and (max-width: 800px) {
   .contenedor-principal{
-    width: 400px;
+    width: 740px;
     flex-wrap: wrap;
-    font-size: 1.2em;
+    font-size: 1.5em;
+  }
+  aside{
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  aside #profile-pic{
+    margin-left: 35%;
   }
   aside,
   main{
-    flex: 100%
+    flex: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contenedor-principal{
+    width: 370px;
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+  .hero h1,h2{
+    font-size: 1.2em;
+  }
+  #profile-pic img{
+    margin-left: 25%;
+    width: 125px;
+  }
+  aside{
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  aside,
+  main{
+    flex: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .contenedor-principal{
+    width: 300px;
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+  .hero h1,h2{
+    font-size: 1.2em;
+  }
+  .references img{
+    width: 50px;
+    height: 40px;
+  }
+  #profile-pic img{
+    margin-left: 25%;
+    width: 125px;
+  }
+  aside{
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  aside,
+  main{
+    flex: 100%;
   }
 }
